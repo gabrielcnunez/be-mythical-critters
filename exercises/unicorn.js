@@ -5,7 +5,12 @@ class Unicorn {
     this.name = name;
     this.color = color;
   }
+
+  isWhite() {
+    return Unicorn.color == 'white'
+  }
 }
+
 
 
 // Notice here we are exporting our class.
