@@ -7,7 +7,11 @@ class Unicorn {
   }
 
   isWhite() {
-    return Unicorn.color == 'white'
+    return Unicorn.color == 'white';
+  }
+
+  says(string) {
+    return `**;* ${string} *;**`;
   }
 }
 
