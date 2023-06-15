@@ -4,26 +4,26 @@ var Unicorn = require('../exercises/unicorn');
 
 describe('Unicorn', function() {
 
-  it.skip('should be a function', function() {
+  it('should be a function', function() {
     assert.isFunction(Unicorn);
   });
 
-  it.skip('should instantiate our good friend, Unicorn', function() {
+  it('should instantiate our good friend, Unicorn', function() {
     var unicorn = new Unicorn();
     assert.isObject(unicorn);
   });
 
-  it.skip('should have a name', function() {
+  it('should have a name', function() {
     var unicorn = new Unicorn('Bree');
     assert.equal(unicorn.name, 'Bree');
   });
 
-  it.skip('should be able to have a different name', function() {
+  it('should be able to have a different name', function() {
     var unicorn = new Unicorn('Pam');
     assert.equal(unicorn.name, 'Pam');
   });
 
-  it.skip('should have a color', function() {
+  it('should have a color', function() {
     var unicorn = new Unicorn('TayTay', 'blue');
     assert.equal(unicorn.color, 'blue');
   });
