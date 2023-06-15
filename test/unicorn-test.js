@@ -28,7 +28,7 @@ describe('Unicorn', function() {
     assert.equal(unicorn.color, 'blue');
   });
 
-  it.skip('should be white as default', function() {
+  it('should be white as default', function() {
     var unicorn = new Unicorn('Louisa');
     assert.equal(unicorn.color, 'white');
   });
