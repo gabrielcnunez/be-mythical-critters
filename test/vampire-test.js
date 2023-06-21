@@ -7,17 +7,17 @@ describe('Vampire', function() {
     assert.isFunction(Vampire);
   });
 
-  it.skip('should instantiate our good friend, Vampire', function() {
+  it('should instantiate our good friend, Vampire', function() {
     var vampire = new Vampire();
     assert.isObject(vampire);
   });
 
-  it.skip('should have a name', function() {
+  it('should have a name', function() {
     var vampire = new Vampire('Jhun');
     assert.equal(vampire.name, 'Jhun');
   });
 
-  it.skip('should have a pet bat as a default', function() {
+  it('should have a pet bat as a default', function() {
     var vampire = new Vampire('Brittany');
     assert.equal(vampire.name, 'Brittany');
     assert.equal(vampire.pet, 'bat');
