@@ -1,6 +1,7 @@
 class Vampire {
-  constructor(name) {
+  constructor(name, pet = 'bat') {
     this.name = name;
+    this.pet = pet
   }
 }
 

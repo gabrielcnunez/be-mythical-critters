@@ -23,12 +23,12 @@ describe('Vampire', function() {
     assert.equal(vampire.pet, 'bat');
   });
 
-  it.skip('should take an argument for pet', function() {
+  it('should take an argument for pet', function() {
     var vampire = new Vampire('Jeff', 'fox');
     assert.equal(vampire.pet, 'fox');
   });
 
-  it.skip('should have vampire return true if thirsty', function() {
+  it('should have vampire return true if thirsty', function() {
     var vampire = new Vampire('Andy');
     assert.equal(vampire.thirsty, true);
   });
