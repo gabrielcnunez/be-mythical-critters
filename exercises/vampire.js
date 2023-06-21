@@ -4,6 +4,10 @@ class Vampire {
     this.pet = pet;
     this.thirsty = true;
   }
+
+  drink() {
+    this.thirsty = false;
+  }
 }
 
 module.exports = Vampire;
