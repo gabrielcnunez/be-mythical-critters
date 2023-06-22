@@ -17,7 +17,7 @@ describe('Hobbit', function() {
     assert.equal(hobbit.name, 'Bilbo');
   });
 
-  it.skip('should have an unadventurous disposition', function() {
+  it('should have an unadventurous disposition', function() {
     var hobbit = new Hobbit('Samwise');
     assert.equal(hobbit.disposition, 'homebody');
   });
