@@ -30,7 +30,7 @@ describe('Dragon', function() {
     assert.equal(dragon.color, 'blue');
   });
 
-  it.skip('should start off being hungry', function() {
+  it('should start off being hungry', function() {
     var dragon = new Dragon('Josh');
     assert.equal(dragon.hungry, true);
   });
