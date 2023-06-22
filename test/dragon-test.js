@@ -35,7 +35,7 @@ describe('Dragon', function() {
     assert.equal(dragon.hungry, true);
   });
 
-  it.skip('should be full after eating 3 times', function() {
+  it('should be full after eating 3 times', function() {
     var dragon = new Dragon('Lady Vox');
 
     assert.equal(dragon.hungry, true);

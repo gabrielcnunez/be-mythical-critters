@@ -3,6 +3,7 @@ class Dragon {
     this.name = name;
     this.rider = rider;
     this.color = color;
+    this.hungry = true;
   }
 }
 
