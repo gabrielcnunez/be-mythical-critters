@@ -3,16 +3,16 @@ var Dragon = require('../exercises/dragon');
 
 describe('Dragon', function() {
 
-  it.skip('should be a function', function() {
+  it('should be a function', function() {
     assert.isFunction(Dragon);
   });
 
-  it.skip('should instantiate our good friend, Dragon', function() {
+  it('should instantiate our good friend, Dragon', function() {
     var dragon = new Dragon();
     assert.isObject(dragon);
   });
 
-  it.skip('should have name', function() {
+  it('should have name', function() {
     var dragon1 = new Dragon('Jeff');
     assert.equal(dragon1.name, 'Jeff');
     var dragon2 = new Dragon('Louisa');
