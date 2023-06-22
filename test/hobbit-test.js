@@ -7,12 +7,12 @@ describe('Hobbit', function() {
     assert.isFunction(Hobbit);
   });
 
-  it.skip('should instantiate our good friend, Hobbit', function() {
+  it('should instantiate our good friend, Hobbit', function() {
     var hobbit = new Hobbit();
     assert.isObject(hobbit);
   });
 
-  it.skip('should have a name', function() {
+  it('should have a name', function() {
     var hobbit = new Hobbit('Bilbo');
     assert.equal(hobbit.name, 'Bilbo');
   });
